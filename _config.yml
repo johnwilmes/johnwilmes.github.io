@@ -1,5 +1,4 @@
-url: "https://people.brandeis.edu/~wilmes/"
-baseurl: "/~wilmes"
+url: "https://johnwilmes.github.io"
 sass:
   sass_dir: _sass
   style: compressed
