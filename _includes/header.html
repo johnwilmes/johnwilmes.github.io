@@ -1,0 +1,25 @@
+<header>
+    <div id="topbar" class="flexrow">
+        <div class="flexleft">
+            {% if page.title != "About" %}<h1>John&nbsp;Wilmes</h1>{% endif %}
+        </div>
+        <nav id="mainnav" class="flexright">
+            <ul class="flexright">
+{%- assign nav_pages = site.html_pages | concat: site.data.navigation | sort: 'navigation_weight' -%}
+{%- for p in nav_pages -%}
+    {%- if p.navigation_weight -%}
+                <li{% if p.url == page.url %} class="active"{% endif %}>
+                    <a href="{{ p.url | relative_url }}">{{ p.title | replace: " ", "&nbsp;" }}</a>
+                </li>
+    {%- endif -%}
+{%- endfor -%}
+            </ul>
+        </nav>
+    </div>
+    <div id="titlebar" class="flexrow">
+        <div id="title" class="flexleft">
+            <h1>{% if page.title != "About" %}{{ page.title | replace: " ", "&nbsp;" }}{% else %}John&nbsp;Wilmes{% endif %}</h1>
+        </div>
+        <div class="flexright"></div>
+    </div>
+</header>

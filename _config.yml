@@ -1,0 +1,5 @@
+url: "https://people.brandeis.edu/~wilmes/"
+baseurl: "/~wilmes"
+sass:
+  sass_dir: _sass
+  style: compressed

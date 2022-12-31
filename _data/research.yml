@@ -1,0 +1,73 @@
+- title: Neural Networks
+  works:
+    - title: "Gradient Descent for One-Hidden-Layer Neural Networks: Polynomial Convergence and SQ Lower Bounds"
+      author: Santosh Vempala and John Wilmes
+      arxiv: "https://arxiv.org/abs/1805.02677"
+      conference:
+        where: COLT
+        when: 2019
+        future: true
+    - title: On the complexity of learning neural networks
+      author: Le Song, Santosh Vempala, John Wilmes, and Bo Xie
+      arxiv: "https://arxiv.org/abs/1707.04615"
+      conference:
+        where: NIPS
+        when: 2017
+        url: "http://papers.nips.cc/paper/7135-on-the-complexity-of-learning-neural-networks"
+        note: spotlight
+- title: Graph Isomorphism and Regular Structures
+  works:
+    - title: Asymptotic Delsarte cliques in distance-regular graphs
+      author: László Babai and John Wilmes
+      arxiv: "https://arxiv.org/abs/1503.02746"
+      journal:
+        where: Journal of Algebraic Combinatorics
+        when: 2016
+        url: "https://doi.org/10.1007/s10801-015-0607-0"
+    - title: Structure and automorphisms of primitive coherent configurations
+      author: Xiaorui Sun and John Wilmes
+      arxiv: "https://arxiv.org/abs/1510.02195"
+      conference:
+        where: STOC
+        when: 2015
+        title: Faster canonical forms for primitive coherent configurations
+        url: "https://doi.org/10.1145/2746539.2746617"
+        note: invited to special issue
+    - title: Faster canonical forms for strongly regular graphs
+      author: László Babai, Xi Chen, Xiaorui Sun, Shang-Hua Teng, and John Wilmes
+      conference:
+        where: FOCS
+        when: 2013
+        url: "https://doi.org/10.1109/FOCS.2013.25"
+        note: invited to special issue
+    - title: Quasipolynomial-time canonical form for Steiner designs
+      author: László Babai and John Wilmes
+      conference:
+        where: STOC
+        when: 2013
+        url: "https://doi.org/10.1145/2488608.2488642"
+- title: Markov Chain Monte Carlo
+  works:
+    - title: On counting perfect matchings in general graphs
+      author: Daniel Štefankovič, Eric Vigoda, and John Wilmes
+      arxiv: "https://arxiv.org/abs/1712.07504"
+      conference:
+        where: LATIN
+        when: 2018
+        url: "https://doi.org/10.1007/978-3-319-77404-6_63"
+- title: Abelian Sandpiles
+  works:
+    - title: Minimal free resolutions of the \(G\)-parking function ideal and the toppling ideal
+      author: Madhusudan Manjunath, Frank-Olaf Schreyer, and John Wilmes
+      arxiv: "https://arxiv.org/abs/1210.7569"
+      journal:
+        where: Transactions of the American Mathematical Society
+        when: 2015
+        url: "https://doi.org/10.1090/S0002-9947-2014-06248-X"
+    - title: Primer for the algebraic geometry of sandpiles
+      author: David Perkinson, Jacob Perlman, and John Wilmes
+      arxiv: "https://arxiv.org/abs/1112.6163"
+      chapter:
+        where: Tropical and Non-Archimedean Geometry
+        when: 2013
+        url: "http://dx.doi.org/10.1090/conm/605"

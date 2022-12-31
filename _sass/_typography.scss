@@ -1,0 +1,39 @@
+$serif: merriweather, serif;
+$sans: "gotham ssm a", "gotham ssm b", $local_sans;
+
+html {
+  font-family: $serif;
+  font-weight: 300;
+}
+
+h1 {
+  font: 300 2rem $sans;
+  letter-spacing: 0.1rem;
+}
+
+h2 {
+  font: 400 1.5rem $sans;
+}
+
+h3 {
+  font: 400 1.2rem $sans;
+}
+
+h4 {
+  font: 500 1rem $sans;
+}
+
+nav a {
+  font: 400 1.1rem $sans;
+  text-decoration: none;
+  letter-spacing: 0.12rem;
+}
+
+#main a:hover {
+    text-decoration: double underline;
+}
+
+
+
+
+
