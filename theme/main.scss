@@ -8,7 +8,7 @@
 
 body {
     margin: 0;
-    background-color: #fff;
+    background-color: $surface;
 }
 
 .flexrow {
@@ -40,7 +40,7 @@ body {
 }
 
 #sidebar {
-    border-top: 0.25rem solid rgb(88, 89, 91);
+    border-top: 0.25rem solid $on-surface-var;
     padding-top: 1rem;
 }
 
@@ -116,6 +116,24 @@ nav {
 #headshot {
     width: 100%;
     margin-top: 1rem;
+}
+
+#contact {
+    padding: 0em;
+    list-style: none;
+
+    li {
+        color: $primary;
+    }
+
+    svg {
+        width: 1em;
+        height: 1em;
+        margin-right: 0.5em;
+        path {
+            fill: currentColor;
+        }
+    }
 }
 
 .flexwrap {
