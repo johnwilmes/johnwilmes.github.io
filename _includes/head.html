@@ -3,9 +3,16 @@
 
     <title>John Wilmes{% if page.title != "About" %} | {{ page.title }}{% endif %}</title>
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-71BVXJZ9XH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-71BVXJZ9XH');
+    </script>
     <link rel="stylesheet" type="text/css" href="{{ "/theme/main.css" | relative_url }}" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500&family=Merriweather:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
 </head>
-<head>
